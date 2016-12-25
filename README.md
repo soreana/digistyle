@@ -13,4 +13,5 @@ $ curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/gecko
 
 
 to run selenium and gechodriver issue this command
+
 java -jar -Dwebdriver.geckodriver.driver=./geckodriver selenium-server-standalone-3.0.1.jar
