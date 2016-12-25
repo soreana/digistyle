@@ -1,7 +1,8 @@
-# How to start #
-to download selenium and gechodriver
+# Download Selenium #
 
 $ curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar
+
+# Download geckodriver #
 
 ## Linux 64-bit ##
 
@@ -11,7 +12,6 @@ $ curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/gecko
 
 $ curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-macos.tar.gz | tar xz
 
-
-to run selenium and gechodriver issue this command
+# run selenium and gechodriver #
 
 java -jar -Dwebdriver.geckodriver.driver=./geckodriver selenium-server-standalone-3.0.1.jar
